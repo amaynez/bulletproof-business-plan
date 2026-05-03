@@ -58,7 +58,7 @@ In your AI agent (Claude Code, Cursor, etc.), simply say:
 > "Run the bulletproof process for the business plan at [path/to/plan.md]."
 
 ---
-Built with by Armando Maynez.
+Built with ❤️ by Armando Maynez.
 
 ## License
 Free for **Personal Use**. **Commercial Use** requires a paid license.
