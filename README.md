@@ -2,7 +2,7 @@
 
 Stop building fragile startups. Use the same adversarial process world-class investors use to break your plan, then re-engineer it until it's unshakeable.
 
-![Bulletproof Process Diagram](https://raw.githubusercontent.com/username/bulletproof-business-plan/main/assets/diagram.png)
+![Bulletproof Process Diagram](https://raw.githubusercontent.com/amaynez/bulletproof-business-plan/main/assets/diagram.png)
 
 ## 🚀 The Heuristic Loop
 This skill automates a high-fidelity "Adversarial Loop" between two AI personas:
