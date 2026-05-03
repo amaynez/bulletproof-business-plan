@@ -1,0 +1,23 @@
+{
+  "name": "bulletproof-business-plan",
+  "version": "1.0.0",
+  "description": "An adversarial AI agent skill to stress-test and harden business plans.",
+  "main": "bin/install.js",
+  "bin": {
+    "bulletproof-skill": "bin/install.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "claude",
+    "business",
+    "hardening",
+    "investor",
+    "skill"
+  ],
+  "author": "Armando Maynez",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
