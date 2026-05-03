@@ -1,6 +1,6 @@
 {
   "name": "bulletproof-skill",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An adversarial AI agent skill to stress-test and harden business plans.",
   "main": "bin/install.js",
   "bin": {
