@@ -12,7 +12,7 @@ description: Stress-test and strengthen a business plan through iterative rounds
 
 ### 1. Initialization & Scoping
 - **Target Plan**: Locate the business plan file.
-- **Rounds**: Ask the user: "How many rounds of hardening should I execute? I recommend 3–5 rounds for a balanced value between token usage and having a great plan."
+- **Rounds**: Ask the user: "How many rounds of hardening should I execute? I recommend 3-5 rounds for a balanced value between token usage and having a great plan."
 - **Setup**: Create a directory named `hardening_[plan-basename]/` in the same folder as the plan.
 - **Archive**: Save the original plan as `rounds/r0_original.md`.
 - **Summary**: Create `summary.md` to track the strategic evolution and pivots.
