@@ -10,16 +10,26 @@ This skill automates a high-fidelity "Adversarial Loop" between two AI personas:
 1. **The World-Class Investor**: Scans your plan for existential risks, assigning a **Probability of Rejection** (e.g., 90%) to every objection backed by hard market data.
 2. **The Strategic Founder**: Systematically re-engineers the business model to neutralize those risks, turning vulnerabilities into structural moats.
 
-## 📦 Installation
+## 🚀 Setup & Installation
 
-### One-liner (via npx)
+Choose the method that's easiest for you:
+
+### Option 1: Just Ask your AI Agent (Easiest)
+If you are already using **Claude Code**, **Gemini CLI**, or **Cursor**, just copy and paste this command into your chat:
+> "Clone `https://github.com/amaynez/bulletproof-business-plan.git`, read `agent-setup.md` in it, and install the bulletproof-skill for me."
+
+### Option 2: Use the One-Liner (Fastest)
+Run this command in your terminal:
 ```bash
-npx bulletproof-skill install
+npx bulletproof-skill
 ```
 
-### Manual Installation
-1. Clone this repo into `~/.claude/skills/` (for Claude Code) or your project's `.skills/` folder.
-2. Restart your AI agent.
+### Option 3: Manual Install
+If you prefer to do it yourself:
+1. **Claude Code**: Copy the `skills/` folder to `~/.claude/skills/`
+2. **Gemini CLI**: Copy the `skills/` folder to `.gemini/skills/`
+3. **Cursor**: Copy the `skills/` folder to `~/.cursor/skills/`
+4. **Others**: Copy the `skills/` folder to a `.skills/` directory in your project.
 
 ## 📖 Case Study: The Async Standard
 See the `examples/async-authority/` folder to see how a fragile **Instagram Growth Hack** was hardened into a **B2B Certification Body** over 3 rounds of adversarial review.
