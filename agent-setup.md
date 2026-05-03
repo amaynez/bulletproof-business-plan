@@ -18,7 +18,12 @@ To install the **bulletproof-skill**, copy the contents of the `skills/bullet-pr
 - **Target Directory**: `~/.cursor/skills/bullet-proof-business-plan/`
 - **Action**: Copy all files from `skills/bullet-proof-business-plan/` into the target directory.
 
-### 4. Other Agents (Cline, Windsurf, Roo Code)
+### 4. OpenCode
+- **Target Directory**: `~/.config/opencode/skills/bullet-proof-business-plan/` (Global) OR `.opencode/skills/bullet-proof-business-plan/` (Local Project)
+- **Action**: Copy all files from `skills/bullet-proof-business-plan/` into the target directory.
+- **Activation**: Use the `/skills` command in the OpenCode chat to verify the skill is loaded.
+
+### 5. Other Agents (Cline, Windsurf, Roo Code)
 - **Target Directory**: `.skills/bullet-proof-business-plan/` (Project Root)
 - **Action**: Copy all files from `skills/bullet-proof-business-plan/` into the project's local `.skills/` folder.
 

@@ -29,7 +29,8 @@ If you prefer to do it yourself:
 1. **Claude Code**: Copy the `skills/` folder to `~/.claude/skills/`
 2. **Gemini CLI**: Copy the `skills/` folder to `.gemini/skills/`
 3. **Cursor**: Copy the `skills/` folder to `~/.cursor/skills/`
-4. **Others**: Copy the `skills/` folder to a `.skills/` directory in your project.
+4. **OpenCode**: Copy the `skills/` folder to `~/.config/opencode/skills/`
+5. **Others**: Copy the `skills/` folder to a `.skills/` directory in your project.
 
 ## 📖 Case Study: The Async Standard
 See the `examples/async-authority/` folder to see how a fragile **Instagram Growth Hack** was hardened into a **B2B Certification Body** over 3 rounds of adversarial review.

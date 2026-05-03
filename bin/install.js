@@ -11,7 +11,9 @@ const targetPaths = [
   path.join(os.homedir(), '.claude', 'skills', skillName),
   path.join(os.homedir(), '.gemini', 'skills', skillName),
   path.join(os.homedir(), '.cursor', 'skills', skillName),
-  path.join(process.cwd(), '.skills', skillName) // Local project option
+  path.join(os.homedir(), '.config', 'opencode', 'skills', skillName),
+  path.join(process.cwd(), '.skills', skillName), // Local project option
+  path.join(process.cwd(), '.opencode', 'skills', skillName) // OpenCode local option
 ];
 
 console.log(`🛡️ Installing ${skillName}...`);
@@ -34,7 +36,7 @@ let installedCount = 0;
 targetPaths.forEach(target => {
   try {
     // Only install to global agent paths if they already exist on the system
-    const isGlobalPath = target.includes('.claude') || target.includes('.gemini') || target.includes('.cursor');
+    const isGlobalPath = target.includes('.claude') || target.includes('.gemini') || target.includes('.cursor') || target.includes('.config/opencode');
     if (isGlobalPath && !fs.existsSync(path.dirname(target))) {
         return; 
     }
