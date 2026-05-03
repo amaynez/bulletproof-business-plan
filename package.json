@@ -1,10 +1,14 @@
 {
-  "name": "bulletproof-business-plan",
+  "name": "bulletproof-skill",
   "version": "1.0.0",
   "description": "An adversarial AI agent skill to stress-test and harden business plans.",
   "main": "bin/install.js",
   "bin": {
     "bulletproof-skill": "bin/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaynez/bulletproof-business-plan.git"
   },
   "keywords": [
     "ai",
@@ -17,6 +21,10 @@
   ],
   "author": "Armando Maynez",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amaynez/bulletproof-business-plan/issues"
+  },
+  "homepage": "https://github.com/amaynez/bulletproof-business-plan#readme",
   "engines": {
     "node": ">=16.0.0"
   }
