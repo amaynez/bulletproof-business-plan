@@ -40,3 +40,8 @@ In your AI agent (Claude Code, Cursor, etc.), simply say:
 
 ---
 Built with ❤️ by Armando Maynez.
+
+## 📄 License
+Free for **Personal Use**. **Commercial Use** requires a paid license. 
+See [LICENSE.md](LICENSE.md) for full terms.
+
